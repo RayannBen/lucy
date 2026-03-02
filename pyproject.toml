@@ -1,15 +1,17 @@
 [project]
-name = "decart-horus"
+name = "lucy"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "accelerate>=1.12.0",
+    "diffusers>=0.36.0",
     "ftfy>=6.3.1",
     "imageio>=2.37.2",
     "imageio-ffmpeg>=0.6.0",
     "ipykernel>=7.2.0",
     "torch>=2.10.0",
     "transformers>=5.2.0",
+    "xformers>=0.0.35",
 ]
